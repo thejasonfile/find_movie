@@ -1,0 +1,19 @@
+{
+  "name": "find_movie",
+  "version": "1.0.0",
+  "description": "Movie Search using the OMDB API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thejasonfile/find_movie.git"
+  },
+  "author": "Jason Arnold",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thejasonfile/find_movie/issues"
+  },
+  "homepage": "https://github.com/thejasonfile/find_movie#readme"
+}
