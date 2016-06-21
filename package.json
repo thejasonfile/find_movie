@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/thejasonfile/find_movie/issues"
   },
-  "homepage": "https://github.com/thejasonfile/find_movie#readme"
+  "homepage": "https://github.com/thejasonfile/find_movie#readme",
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "request": "^2.72.0"
+  }
 }
