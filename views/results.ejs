@@ -2,7 +2,8 @@
 
 <ul>
     <% data["Search"].forEach(function(movie) { %> 
-        <li><%= movie["Title"]%></li>
+        <a href="/details"><li><%= movie["Title"]%> - <%= movie["Year"] %> - <img src='<%= movie["Poster"] %>'></li></a>
     <% }) %>
 </ul>
+<a href="/results">Next Page</a>
 <a href="/">Back to Search</a>

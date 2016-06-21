@@ -18,6 +18,10 @@ app.get("/results", function(req, res){
    });
 });
 
+app.get("/details", function(req, res){
+    console.log(res.app);
+});
+
 app.listen (process.env.PORT, process.env.IP, function(){
     console.log("Find_Movie app has started.");
 });
