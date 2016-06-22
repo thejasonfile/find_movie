@@ -1,0 +1,12 @@
+#search {
+    text-align: center;
+}
+
+input[type='text'] {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btn {
+    margin-top: 0.5em;
+}
