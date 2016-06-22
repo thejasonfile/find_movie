@@ -1,11 +1,18 @@
 <% include partials/header %>
 
-<h1>Movie Find App</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h1>Movie Finder</h1>
 
-<form action="/results" method="get">
-    <input type="text" placeholder="search term" name="search">
-    <input type="number" name="page">
-    <input type="submit">
-</form>
+            <form action="/results" method="get">
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="search term" name="search">
+                    <input class="btn btn-info btn-lg" type="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
 <% include partials/footer %>
