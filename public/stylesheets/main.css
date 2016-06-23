@@ -10,3 +10,7 @@ input[type='text'] {
 .btn {
     margin-top: 0.5em;
 }
+
+.col-md-3 {
+    height: 550px;
+}
